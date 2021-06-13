@@ -1,7 +1,7 @@
 void FindPrimes(int &n) {
     int sq = sqrt(n);
     for (int i = 2; i <= sq; i++) {
-        if (n % i == 0 && n != 2) {
+        if (n % i == 0) {
             n = 1;
             break;
         }
